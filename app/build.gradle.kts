@@ -41,6 +41,7 @@ android {
 
 dependencies {
     // Stripe SDK for Android
+    implementation(libs.androidx.navigation.compose)
     implementation(libs.stripe.android)
     implementation(libs.stripeterminal)
     implementation(libs.stripe.java)
